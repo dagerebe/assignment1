@@ -122,6 +122,11 @@ dt {
 dd {
     margin: 0 5% .2rem 10%
 }
+
+.othercircle {
+    border-radius: 50rem;
+    margin: 0 0 2.5rem 0;
+}
     
 h3 { 
     margin: 1rem 0 .3rem 5%;
@@ -158,5 +163,6 @@ footer a {
 }
 
 .circle {
-    border-radius: 30rem;
+    border-radius: 50rem;
+    margin: 0 0 3rem 0;
 }
