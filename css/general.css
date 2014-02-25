@@ -1,0 +1,149 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    
+ font-size: 100%;
+    font-family: "Garamond", times, serif;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    overflow: hidden;
+    background-color: white;
+    height: 3.5rem
+}
+
+.logo {
+    height: 3rem;
+    width: auto;
+    margin: .2rem auto;
+}    
+
+.billboard {
+    overflow: hidden;
+    background-color: purple;
+    background-image: url(../images/yogaa.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 15rem;
+    width: auto;
+}
+
+h1 {
+    font-family: helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: rgba(255, 255, 255, .85);
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 5rem 0 0 0;
+}
+
+blockquote {
+    font-size: 1.5rem;
+}
+
+blockquote span {
+    font-weight: bold;
+    float :right;
+    margin: 0;
+    font-style: italic; 
+}
+
+blockquote p:before {
+    content: "“";
+    font-size: 9rem;
+    color: orange;
+    float: left;
+    margin: -2rem 0 0 -15%;
+    font-family: Georgia, Times, serif;
+}
+
+blockquote p:after {
+    content: "”";
+    font-size: 3rem;
+    position: absolute;
+    color: orange;
+    margin: -.4rem 0 0 0;
+    font-family: Georgia, Times, serif;
+}
+
+hr {
+    margin: 3rem 5% 1rem 5%; 
+    border:solid .1rem purple;
+}
+
+figure {
+    margin: 0 5% -1.8rem 5%;
+}
+
+figcaption {
+    font-size: .75rem;
+    padding: .5rem 5%;
+    background-color: orange;
+}
+
+h2 {
+    margin: 3rem 0 0 5%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.1rem;
+    color: orange;
+}
+
+h2, p {
+    margin: 0 5% .2rem 5%
+}
+    
+h3 { 
+    margin: 1rem 0 .3rem 5%;
+    font-family: helvetica, arial, sans-serif;
+    font-size: 1.6rem;
+    color: orange;
+}
+
+.dropcap:first-letter {
+    font-size: 4rem;
+    font-weight: bold;
+    float: left;
+    margin: -.4rem 2% -.9rem 0;
+    color: purple;
+}
+
+.under {
+    margin: 1rem 5% 1rem 5%;
+    border:solid .1rem purple;
+}
+
+footer {
+    overflow: hidden;
+    background-color: white;
+    height: 5rem
+}
+
+    
+
+    
