@@ -18,7 +18,7 @@ html {
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     
- font-size: 100%;
+    font-size: 100%;
     font-family: "Garamond", times, serif;
 }
 
@@ -107,15 +107,20 @@ figcaption {
     background-color: orange;
 }
 
-h2 {
-    margin: 3rem 0 0 5%;
+p {
+    margin: 0 5% .2rem 5%
+}
+    
+
+dt {
+    margin: 1rem 0 0 5%;
     font-family: helvetica, arial, sans-serif;
     font-size: 1.1rem;
-    color: orange;
+    color: purple;
 }
 
-h2, p {
-    margin: 0 5% .2rem 5%
+dd {
+    margin: 0 5% .2rem 10%
 }
     
 h3 { 
@@ -141,8 +146,17 @@ h3 {
 footer {
     overflow: hidden;
     background-color: white;
-    height: 5rem
+    height: 5.5rem
 }
+
+footer p {
+    font-size: .75rem;
+}
+
+footer a {
+    color: black
+}
+
 
     
 
