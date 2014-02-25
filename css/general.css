@@ -155,4 +155,8 @@ footer p {
 
 footer a {
     color: black
-}   
+}
+
+.circle {
+    border-radius: 30rem;
+}
